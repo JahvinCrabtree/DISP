@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Poor",
+          "value": "Poor, not a good experience."
+        },
+        {
+          "value": "Acceptable, an acceptable service with areas that could be improved.",
+          "label": "Acceptable"
+        },
+        {
+          "label": "Good",
+          "value": "The service was good and you would recommend it to someone."
+        }
+      ],
+      "label": "How good was your service?",
+      "type": "select",
+      "id": "Field_160fbqu",
+      "key": "field_1dnwhvb",
+      "description": "Please choose the option that best souits your experience with parklane."
+    }
+  ],
+  "type": "default",
+  "id": "serviceRatingForm"
+}

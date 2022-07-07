@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Please enter your credit score.",
+      "type": "number",
+      "id": "Field_10p8nrh",
+      "key": "creditRating",
+      "description": "Please enter a whole number.",
+      "validate": {
+        "min": 0,
+        "max": 999,
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "creditRatingForm"
+}

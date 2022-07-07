@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Order a different drink.",
+      "type": "textfield",
+      "id": "Field_1k4yn4f",
+      "key": "drink",
+      "description": "Type in the drink you would like to order.",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "How many drinks woukld you like?",
+      "type": "number",
+      "id": "Field_10u059h",
+      "key": "drinkQuantity",
+      "description": "Max amount of 5.",
+      "validate": {
+        "required": true,
+        "min": 1,
+        "max": 5
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Would you like ice?",
+      "type": "select",
+      "id": "Field_0n36brz",
+      "key": "field_0vjeteb",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "remakeDrinkOrderForm"
+}
