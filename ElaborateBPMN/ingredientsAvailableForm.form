@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Are the ingredients available?",
+      "type": "select",
+      "id": "Field_17nwznp",
+      "key": "ingredientsAvailable",
+      "description": "Please choose yes or no.",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "ingredientsAvailableForm"
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Order Request",
+      "type": "textfield",
+      "id": "Field_0o7j9bl",
+      "key": "drinkOrder",
+      "description": "What drink would you like to order?",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^.*please.*$"
+      }
+    },
+    {
+      "label": "Amount of Drinks",
+      "type": "number",
+      "id": "Field_16qz03v",
+      "key": "drinkQuantity",
+      "description": "How many drinks would you like to order?",
+      "validate": {
+        "required": true,
+        "min": 1,
+        "max": 5
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Garnish",
+      "type": "select",
+      "id": "Field_06l8ku7",
+      "key": "field_0p7qup9",
+      "description": "Would you like Ice and fruit?",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "drinkOrderForm"
+}

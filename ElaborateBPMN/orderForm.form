@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "What are you ordering?",
+      "type": "textfield",
+      "id": "Field_0emuizk",
+      "key": "orderItems",
+      "description": "Please enter the ingredients that need to be ordered.",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "How many are you ordering?",
+      "type": "number",
+      "id": "Field_0wf4hw8",
+      "key": "orderAmount",
+      "description": "Please input the amount of bottles you're ordering. ",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "orderForm"
+}

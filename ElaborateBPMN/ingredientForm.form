@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Ingredients Needed",
+      "type": "textfield",
+      "id": "Field_0ngoaxx",
+      "key": "ingredient",
+      "description": "What ingredient do you need to find for the drink?",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "ingredientForm"
+}
